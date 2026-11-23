@@ -13,12 +13,11 @@
 
 | Campo | Informação |
 |---|---|
-| **Instituição** | CEFET-MG — Campus Divinópolis |
+| **Instituição** | UFCIMG — Campus Divinópolis |
 | **Curso / Disciplina** | Engenharia de Computação — Programação em Python |
 | **Professor (Product Owner / Revisor)** | Guido Pantuza |
 | **Responsável Técnico** | Kairo Henrique ([@KairoHenrique](https://github.com/KairoHenrique)) — Projeto Individual |
 | **Cliente Fictício** | Pedal Forte Bicicletas Ltda. (GPTech Sistemas) |
-| **Prazo de Entrega** | 23/11/2026 (SIGAA + Repositório GitHub) |
 | **Stack Definida** | Python 3.10+, persistência JSON/CSV, relatórios gráficos com `matplotlib` |
 
 ---
