@@ -1,0 +1,32 @@
+{
+  "OP-0001": {
+    "numero": "OP-0001",
+    "tipo": "OP",
+    "item": "SA-020",
+    "quantidade": 50.0,
+    "semana_liberacao": 1,
+    "semana_entrega": 2,
+    "status": "FIRME",
+    "data_criacao": "15/11/2026"
+  },
+  "OP-0002": {
+    "numero": "OP-0002",
+    "tipo": "OP",
+    "item": "SA-010",
+    "quantidade": 20.0,
+    "semana_liberacao": 1,
+    "semana_entrega": 2,
+    "status": "LIBERADA",
+    "data_criacao": "15/11/2026"
+  },
+  "OC-0001": {
+    "numero": "OC-0001",
+    "tipo": "OC",
+    "item": "MP-200",
+    "quantidade": 40.0,
+    "semana_liberacao": 1,
+    "semana_entrega": 2,
+    "status": "LIBERADA",
+    "data_criacao": "15/11/2026"
+  }
+}

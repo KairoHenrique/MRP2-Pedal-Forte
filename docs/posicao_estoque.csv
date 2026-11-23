@@ -1,0 +1,16 @@
+codigo,tipo,descricao,unidade,saldo_atual,estoque_seguranca,situacao
+MP-100,MP,Tubo de aco carbono,m,150.0,30.0,OK
+MP-101,MP,Tinta epoxi,L,40.0,10.0,OK
+MP-200,MP,Aro 29 aluminio,un,35.0,15.0,OK
+MP-201,MP,Raio inox,un,1800.0,500.0,OK
+MP-202,MP,Pneu 29 x 2.20,un,18.0,20.0,ABAIXO_ES
+MP-203,MP,Aro 26 aluminio,un,40.0,12.0,OK
+MP-204,MP,Pneu 26 x 1.95,un,40.0,15.0,OK
+MP-300,MP,Guidao,un,45.0,10.0,OK
+MP-301,MP,Kit transmissao 12v,un,12.0,8.0,OK
+MP-302,MP,Selim confort,un,30.0,10.0,OK
+PA-001,PA,Bicicleta Aro 29 MTB,un,15.0,5.0,OK
+PA-002,PA,Bicicleta Urbana Aro 26,un,12.0,4.0,OK
+SA-010,SA,Quadro aro 29 soldado,un,30.0,5.0,OK
+SA-020,SA,Roda aro 29 montada,un,40.0,10.0,OK
+SA-030,SA,Roda aro 26 montada,un,30.0,8.0,OK
