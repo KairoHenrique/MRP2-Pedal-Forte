@@ -150,7 +150,8 @@ def exibir_custo_padrao(dados, codigo_item):
 def listar_custos_fabricados(dados):
     """Exibe um resumo de custo padrao de todos os itens fabricados."""
     fabricados = sorted(
-        i for i in dados["itens"].values() if i["tipo"] in ("PA", "SA")
+        (i for i in dados["itens"].values() if i["tipo"] in ("PA", "SA")),
+        key=lambda i: i["codigo"],
     )
     if not fabricados:
         print("\nNenhum item fabricado (PA ou SA) cadastrado.")

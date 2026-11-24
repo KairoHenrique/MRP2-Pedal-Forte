@@ -45,7 +45,8 @@ def atualizar_semana_mps(dados, codigo_pa, semana, quantidade):
 def exibir_mps(dados):
     """Exibe a tabela do Plano Mestre de Producao (8 semanas)."""
     pas = sorted(
-        i for i in dados["itens"].values() if i["tipo"] == "PA"
+        (i for i in dados["itens"].values() if i["tipo"] == "PA"),
+        key=lambda i: i["codigo"],
     )
     if not pas:
         print("\nNenhum produto acabado (PA) cadastrado.")
